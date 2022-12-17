@@ -31,6 +31,7 @@ let namep = prompt("Ingrese su nombre profesor: ");
 
 //                          Calculamos si la suma de los parciales hace al promedio desaprobado o aprobado
 //                                y almacenamos los nombres en los arrays dependiendo el promedio
+        
 if(gpa >= 6.7){
     alert("El promedio de "+ namei + " es " + gpa +  " \n " + "Logro alcanzar la nota esperada para aprobar 👍" + " \n " + "😁 APROBADO 😁");
     listNames.push(namei.toUpperCase());

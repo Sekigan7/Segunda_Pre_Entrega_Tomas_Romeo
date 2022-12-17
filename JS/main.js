@@ -16,13 +16,11 @@ let namep = prompt("Ingrese su nombre profesor: ");
 
     let namei = prompt("ingrese el nombre del alumno: ");
 
-//        Almacenamos los nombres en una lista para tener el registro de los alumnos ingresados y mostrarselo al finalizar el resultado.
-
-
+//                                      Mostramos por pantalla el nombre del alumno en cuestion.
 
     alert("El alumno cargado es: " + namei);
 
-//                                                Cargamos las notas 
+//                                                      Cargamos las notas 
 
 
     exam1 = parseFloat(prompt("Parcial numero 1: "));
@@ -32,7 +30,7 @@ let namep = prompt("Ingrese su nombre profesor: ");
     gpa = (exam1+exam2+exam3+final)/4;
 
 //                          Calculamos si la suma de los parciales hace al promedio desaprobado o aprobado
-
+//                                y almacenamos los nombres en los arrays dependiendo el promedio
 if(gpa >= 6.7){
     alert("El promedio de "+ namei + " es " + gpa +  " \n " + "Logro alcanzar la nota esperada para aprobar 👍" + " \n " + "😁 APROBADO 😁");
     listNames.push(namei.toUpperCase());
